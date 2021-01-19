@@ -1,0 +1,9 @@
+#formulario-agregar{
+    display: none;
+}
+.table .fa-icon{
+    cursor: pointer;
+}
+.table .fa-icon:hover{
+    color: #ff0000;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #eeeeee;
+}
+h1{
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: -2px;
+  margin: 0;
+  line-height: 1;
+}
+h2{
+  font-weight: 100;
+  font-size: 36px;
+  letter-spacing: -2px;
+}
+h5{
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+.padded{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.container{
+  max-width: 1600px;
+}
+.fila-seleccionada{
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.preloader{
+  display: flex;
+  justify-content: center;  
+}
+
+.producto-sin-oferta{
+  display:none;
+}
+.producto-con-oferta{
+  display:block;
+  background-color: #ff0000;
+  color: #eeeeee;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+  transform: rotate(-45deg);
+  left: -30%;
+  top: 10%;
+}
+#catalogo .card{
+  overflow: hidden;
+}
